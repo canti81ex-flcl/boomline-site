@@ -4,7 +4,7 @@ table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3rem .6rem}
 blockquote{border-left:4px solid #999;margin:0;padding:.2rem 1rem;color:#444}
 hr{border:0;border-top:1px solid #ddd;margin:1.5rem 0}a{color:#0645ad}</style></head><body><h1>Privacy Policy — BoomLine</h1>
 <p><strong>Effective date: September 14, 2026</strong>
-<strong>Last updated: September 14, 2026</strong></p>
+<strong>Last updated: September 15, 2026</strong></p>
 <p>BoomLine ("the Game") respects your privacy. This policy explains what information the
 Game collects and how it is used.</p>
 <hr />
@@ -48,21 +48,24 @@ else. It is removed when you uninstall the Game.</p>
 <li>Tutorial completion flags</li>
 <li>A local play log (written to a file on your device only; never uploaded)</li>
 </ul>
-<h3>2-2. Services the current version does not use</h3>
-<p><strong>The current version of the Game includes no third-party services of any kind — no
-analytics, crash reporting, advertising, or account sign-in — and does not transmit any
-user information over the internet.</strong></p>
-<p>We may adopt the services below in the future. If we do, we will update this policy and
-the Google Play "Data safety" section <strong>before</strong> releasing that version.</p>
-<ul>
-<li>Google Analytics for Firebase / Firebase Crashlytics — device information, advertising ID, usage events, crash reports</li>
-<li>Google Play Games Services (only if you choose to sign in) — account identifier, display name, leaderboard and achievement records</li>
-<li>Advertising (Google AdMob or similar, only if you choose to watch an ad) — advertising ID, device information, ad impression and click records</li>
-</ul>
+<h3>2-2. Information collected by third-party services</h3>
+<p>The Game uses the following two third-party services. It uses no other analytics, crash
+reporting, or account sign-in services.</p>
+<p><strong>Google AdMob (rewarded ads)</strong> — an ad plays only when you choose "watch an ad for hearts."
+The ads SDK initializes at app start and may collect and transmit:
+- Advertising identifier (Android Advertising ID), device information (model, OS version,
+  language and country), ad impression and click records
+- In regions that require it (EU/EEA, UK, etc.) a consent form (UMP) is shown on first launch;
+  declining does not limit the Game.</p>
+<p><strong>Google Play Billing (time pass purchases)</strong> — payment details (card numbers, etc.) are handled
+by Google directly and the Game never accesses them. The Game receives only the purchased
+product ID and purchase token, which are stored on your device only.</p>
 <blockquote>
-<p>The Game shows <strong>no forced advertising.</strong> Even if ads are introduced, they will play
-only when you actively choose "watch for a reward."</p>
+<p>The Game shows <strong>no forced advertising.</strong> Ads play only when you actively choose them.</p>
 </blockquote>
+<p>If we later adopt analytics (Google Analytics for Firebase / Crashlytics) or Google Play Games
+Services, we will update this policy and the Google Play "Data safety" section <strong>before</strong>
+releasing that version.</p>
 <h3>2-3. What we do <strong>not</strong> collect</h3>
 <ul>
 <li>Name, date of birth, gender, address, phone number, or other identity data</li>
@@ -76,8 +79,8 @@ storage; the Game does not access your photo library as a whole.)</p>
 <ul>
 <li>Saving and restoring game progress</li>
 <li>Keeping your settings</li>
-<li>(If adopted in the future) diagnosing errors and improving stability, improving content
-  quality such as difficulty tuning, providing leaderboards, and serving rewarded ads</li>
+<li>Serving rewarded ads (only when you choose to watch one)</li>
+<li>Saving and restoring your time pass purchase state</li>
 </ul>
 <p>Information is not used for any other purpose, and no analysis is performed to identify
 individual users.</p>
@@ -86,13 +89,13 @@ individual users.</p>
 <ul>
 <li>Device-stored data is deleted when you uninstall the Game.</li>
 <li>You can delete your progress yourself in-game via Settings → Reset.</li>
-<li>(If adopted in the future) data collected by third-party services is retained and deleted
-  under their own policies.</li>
+<li>Data collected by third-party services (Google AdMob, Google Play Billing) is retained and
+  deleted under their own policies.</li>
 </ul>
 <hr />
 <h2>5. Third Parties</h2>
-<p>We do not sell or rent your information. The current version has no third-party data
-processors. If the services below are adopted, this table will be updated beforehand.</p>
+<p>We do not sell or rent your information. The following providers process data to deliver the
+service:</p>
 <table>
 <thead>
 <tr>
@@ -103,19 +106,14 @@ processors. If the services below are adopted, this table will be updated before
 </thead>
 <tbody>
 <tr>
-<td>Firebase (analytics, crash reporting)</td>
-<td>Google LLC</td>
-<td>https://firebase.google.com/support/privacy</td>
-</tr>
-<tr>
-<td>Google Play Games Services</td>
-<td>Google LLC</td>
-<td>https://policies.google.com/privacy</td>
-</tr>
-<tr>
-<td>Google AdMob (advertising)</td>
+<td>Google AdMob (rewarded ads)</td>
 <td>Google LLC</td>
 <td>https://policies.google.com/technologies/ads</td>
+</tr>
+<tr>
+<td>Google Play Billing</td>
+<td>Google LLC</td>
+<td>https://policies.google.com/privacy</td>
 </tr>
 </tbody>
 </table>
@@ -140,7 +138,7 @@ believe this has occurred may contact us at the email above.</p>
 <ul>
 <li>Device-stored data lives in the app's private storage and is not accessible to other apps.</li>
 <li>The developer does not hold information that personally identifies you.</li>
-<li>(If adopted in the future) communication with third-party services uses encrypted (HTTPS) channels.</li>
+<li>Communication with third-party services uses encrypted (HTTPS) channels.</li>
 </ul>
 <hr />
 <h2>9. Changes to This Policy</h2>
